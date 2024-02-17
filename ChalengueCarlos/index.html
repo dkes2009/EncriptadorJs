@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="js/css/style.css" />
+    <title>ENCRIPTADOR....</title>
+  </head>
+  <body class="flex">
+    <header >
+      <section class="max-width flex">
+        <section class="flex text-icon" style="--gap: 0.3rem">
+          <font color="#FFFFFF">
+          <h1>
+          BIENVENIDOS A DE CODIFICADOR DE TEXTO PARA TODOS ....
+          </h1>
+        </font>
+        </section>
+      </section>
+    </header>
+    <main class="flex">
+      <section class="flex main-container max-width">
+        <section class="flex main-container-child">
+          <section class="flex select text-icon">
+            <select id="options">
+              <option value="enc">Encriptar texto</option>
+              <option value="dec">Descifrar texto</option>
+            </select>
+          </section>
+        </section>
+        <section class="flex main-areas">
+          <section class="flex main-area">
+            <section class="main-area-container">
+              <textarea
+                id="text"
+                placeholder="Escribe tu texto aqui..."
+              ></textarea>
+            </section>
+            <section class="flex main-footer">
+              
+              <span>(<span id="words">0</span>/1000) palabras</span>
+              <button id="process" class="flex">
+                <i class="bx bx-diamond"></i>
+                <span id="processText">ENCRIPTEMOS!</span>
+              </button>
+            </section>
+          </section>
+          <section class="flex main-area">
+            <section class="main-area-container">
+              <textarea id="result" readonly class="readonly"></textarea>
+            </section>
+            <section class="flex main-footer jc-end">
+              <button id="copy" class="flex">
+                <i class="bx bx-copy-alt"></i>COPIAR
+              </button>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer class="flex">
+      <section class="flex">
+        <font color="#FFFFFF">
+        <h2>Carlos Aristizabal</h2>
+      </font>
+      </section>
+      <section class="text-icon flex" style="--gap: 1.5rem">
+        </a>
+        <a href="https://github.com/dkes2009" target="_blank" rel="noopener">
+          <i
+            class="bx bxl-github"
+            style="--color-icon: #ffffff; --font: 1.5rem"
+          ></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/carlos-aristizabal-b122a925a/"
+          target="_blank"
+          rel="noopener"
+        >
+          <i
+          
+          
+            class="bx bxl-linkedin"
+            style="--color-icon: #ffffff; --font: 1.5rem"
+          ></i>
+        </a>
+      </section>
+    </footer>
+
+    <script src="js/js/app.js"></script>
+  </body>
+</html>
