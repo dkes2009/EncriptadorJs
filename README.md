@@ -31,6 +31,8 @@ Fases del diseño:
 	Coponente que realiza el encriptado y desencritado 
 
 
+Link del repositorio 
+https://dkes2009.github.io/EncriptadorJs/
 
 
 *****************************************************
